@@ -1,0 +1,6 @@
+{
+  "name": "Tinytech",
+  "description": "Artisan computer accessories, keycaps, audio gear, and desk setup gadgets with a warm hand-doodled aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

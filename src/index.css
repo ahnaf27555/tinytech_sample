@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #FAF8F5;
+    color: #1C1A17;
+  }
+
+  h1, h2, h3, .font-handwritten {
+    font-family: 'Caveat', cursive, sans-serif;
+  }
+
+  .font-mono-tech {
+    font-family: 'Space Mono', monospace;
+  }
+}
+
+/* Minimalist Clean Shadows & Card Styles */
+.keycap-shadow {
+  box-shadow: 0 2px 8px -2px rgba(28, 26, 23, 0.05), 0 1px 3px rgba(28, 26, 23, 0.06);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.keycap-shadow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -4px rgba(28, 26, 23, 0.08), 0 4px 6px -2px rgba(28, 26, 23, 0.04);
+}
+
+.keycap-shadow:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 2px rgba(28, 26, 23, 0.05);
+}
+
+/* Dots Pattern for accents */
+.dots-pattern {
+  background-image: radial-gradient(rgba(28, 26, 23, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Hide scrollbar for clean horizontal scrolling */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Smooth Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8D2C7;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A39B8E;
+}
