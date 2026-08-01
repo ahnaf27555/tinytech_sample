@@ -202,9 +202,8 @@ export const CategoryDetailView: React.FC<CategoryDetailViewProps> = ({
               </span>
             </div>
           </div>
-
-          {/* Right: Quick Compact Category Switcher */}
-          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1">
+          
+          {/*<div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1">
             <span className="text-[11px] font-mono-tech text-[#FAF8F5]/40 whitespace-nowrap mr-1 hidden sm:inline">
               Switch:
             </span>
@@ -227,7 +226,7 @@ export const CategoryDetailView: React.FC<CategoryDetailViewProps> = ({
                 </button>
               );
             })}
-          </div>
+          </div>*/}
         </div>
       </div>
 
